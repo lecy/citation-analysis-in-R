@@ -30,8 +30,8 @@ your distribution's documentation if that is the case.
 ------------------------------------
 The citenet package is available both as a source package, and as a binary
 package.
-* Source package: cna_0.3-5.tar.gz 
-* Binary package: cna_0.3-5.zip
+* Source package: citenet_0.3-5.tar.gz
+* Binary package: citenet_0.3-5.zip
 
 1.2.1. Installing from source package
 -------------------------------------
@@ -40,17 +40,17 @@ systems, the package can be installed from the command line or from the R
 environment.
 
 From the command line:
-$ R CMD install -l /path/to/library cna_0.3-5.tar.gz
+$ R CMD install -l /path/to/library citenet_0.3-5.tar.gz
 
 From the R command line:
-> install.packages("cna_0.3-5.tar.gz")
+> install.packages("citenet_0.3-5.tar.gz")
 
 Note that on Windows systems, the default behaviour of "install.packages()" is
 different that the one on GNU/Linux systems. In particular, if you install the
 source package from the R command line, you need to explicitly specify that
 it is a source package:
 
-> install.packages("cna_0.3-5.tar.gz", type="source", repos=NULL)
+> install.packages("citenet_0.3-5.tar.gz", type="source", repos=NULL)
 
 1.2.2. Installing from binary package
 -------------------------------------
@@ -59,11 +59,11 @@ systems, the package can be installed from the R command line or by using the
 GUI (Rgui).
 
 From the R command line:
-> install.packages("c:/r/pkg/cna_0.3-5.zip")
+> install.packages("c:/r/pkg/citenet_0.3-5.zip")
 
 From the GUI:
 By clicking on the "Packages" menu, selecting "Install package(s) from local
-zip files", and selecting the "cna_0.3-5.zip" filename.
+zip files", and selecting the "citenet_0.3-5.zip" filename.
 
 
 2. Building
