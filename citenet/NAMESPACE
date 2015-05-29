@@ -1,0 +1,18 @@
+## exportPattern("^[[:alpha:]]+")
+
+#import(tcltk)
+#import(Curl)
+#import(SQLite)
+#import(RSQLite, igraph)
+
+export(writeVNA, writePajek, getAttributes, getEdgelist,
+       loadDatabase,
+       summary.rcnadata)
+
+export(calcLocalCentrality, cnaToIgraph, cnaToSna, deleteIsolates,
+      deletePendants, easyPlotBnW, easyPlotColor, easyPlotGroups, easyPlot,
+      extractGroups, filterByDegree, findCycles ,findGroups, getMainComponent,
+      histCitedBy, histYears, igraphToSna, layoutGraph, removeEdgeInCycle,
+      topAuthors, topCited, topJournals, writeAttributesCna,
+      writeAttributesIgraph)
+

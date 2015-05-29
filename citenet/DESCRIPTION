@@ -1,0 +1,18 @@
+Package: citenet
+Type: Package
+Title: Citation Network Analyzer
+Version: 0.3-5
+Date: 2015-05-28
+Author@R: c(person("Jesse", "Lecy", email="jdlecy@gmail.com",
+                   role="author"),
+            person("Diego", "Moreda", email="diego.plan9@gmail.com",
+                    role="contributor"))
+Author: Jesse Lecy <jdlecy@gmail.com>, with
+  contributions from Diego Moreda <diego.plan9@gmail.com>
+Maintainer: Jesse Lecy <jdlecy@gmail.com>
+Description: Citation Network Analyzer is a program for generating and analyzing compact networks of citation relationships between academic publications.
+Depends: R (>= 2.11.0), RSQLite, igraph
+Imports: network, sna
+License: GPL (>= 2)
+LazyLoad: no
+
