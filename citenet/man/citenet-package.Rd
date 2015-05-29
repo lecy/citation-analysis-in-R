@@ -85,21 +85,6 @@ has been renamed to \code{citenet} in order to prevent conflicts with the
 As such, both the documentation and the R code might still contain references
 to \code{CNA}. Please be aware that, in all cases, they refer to this package.
 
-The Windows binary version of \code{RCurl} may not be available on the
-\code{CRAN}. As a result, it should be installed locally. A Windows
-binary package containing the latest version and the required dependencies
-can downloaded from the site generously maintained by Brian Ripley:
-
-\url{http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/2.12/}
-
-And be installed using the standard installation facilities, either by
-selecting the \dQuote{Packages > Install package(s) from local zip file}
-menu option or by the \code{install.packages} command line function.
-
-For more information about the issue see:
-
-\url{http://cran.r-project.org/bin/windows/contrib/r-release/ReadMe}
-}
 \author{
 Jesse Lecy <jdlecy@gmail.com>
 
