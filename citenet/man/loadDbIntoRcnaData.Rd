@@ -33,4 +33,4 @@ loadDatabase(dbfilename)
 \seealso{
   \code{\link{RcnaData}}, \code{\link{writeVNA}}, \code{\link{writePajek}}
 }
-\keyword{ ~database }
+\keyword{ database }
